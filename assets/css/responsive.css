@@ -1,0 +1,520 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24 : 22px;
+        --f28 : 24px;
+        --f30 : 24px;
+        --f32 : 28px;
+        --f36 : 30px;
+        --f40 : 36px;
+        --f48: 37px;
+      }
+    .header-area{
+    width: 100%;
+    border-radius: 0;
+}
+
+.logo-area {max-width: 100px;}
+.H-about_wrp {
+    max-width: 580px;
+}
+.flight-content {
+    max-width: 90%;
+    margin: auto;
+}
+.settings_blk.active {
+    width: 220px;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+        --f18 : 16px;
+        --f20 : 18px;
+        --f22 : 20px;
+        --f24: 20px;
+        --f28: 20px;
+        --f30: 22px;
+        --f32 : 28px;
+        --f36: 27px;
+        --f40: 28px;
+        --f48: 30px;
+      }
+    .header-area{
+    width: 100%;
+    border-radius: 0;
+}
+
+.siteBar {
+    top: 100px;
+}
+
+.logo-area {max-width: 90px;}
+.H-about_wrp {
+    max-width: 580px;
+    margin-top: 10px;
+}
+.flight-content {
+    max-width: 96%;
+    margin: auto;
+}
+.neutral_Levels ul li i {
+    width: 95%;
+    padding: 0;
+    height: 62px;
+}
+
+.neutral_Levels ul li {padding: 25px;}
+
+.find_blk a {
+    display: none;
+}
+
+.find_blk {
+    padding: 30px 20px 40px;
+}
+
+.src_blk input {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.find_blk h1 img {
+    max-width: 40px;
+}
+
+.src_blk button {
+    width: 40px;
+    height: 40px;
+}
+
+.H-about {
+    padding: 30px;
+}
+
+.H-about p {
+    font-size: 16px;
+}
+
+.H-about ul li i {
+    flex-shrink: 0;
+}
+
+.H-about ul li i img {
+    width: 15px;
+}
+
+.H-about ul li {
+    gap: 10px;
+    font-size: 16px;
+}
+
+.H-about ul li span {
+    max-width: 80%;
+}
+
+.H-about ul li a img {
+    width: 20px;
+}
+
+.H-about > a {
+    position: absolute;
+    max-width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Partners_content ul li a {
+    height: 90px;
+}
+
+.Partners_content ul {
+    gap: 10px;
+}
+
+.Partners_content ul li a img {
+    scale: .7;
+}
+
+.neutral_blk.xl {
+    margin-left: -15px;
+    border-radius: 0;
+    margin-right: -12px;
+}
+
+.neutral_text p br {
+    display: none;
+}
+
+.neutral_Levels ul {
+    min-width: 520px;
+    gap: 16px;
+}
+
+.neutral_Levels ul li i img {
+    scale: .7;
+}
+
+
+.neutral_Levels {
+    max-width: 100%;
+    overflow: scroll;
+    margin-top: -20px;
+}
+
+.flight_input {
+    padding: 30px 30px;
+}
+
+.flight_wrp .accordion {
+    padding: 30px 30px;
+    padding-top: 15px;
+}
+
+.flight-area .accordion-button {
+    padding: 20px 0;
+}
+
+
+.flight-area .accordion-body p {
+    font-size: 14px;
+}
+
+.accordion-button::after {
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+}
+
+footer.footer-area {
+    background: #fff;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.Business-area hr {
+    display: none;
+}
+
+.Business-area {
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.footer-left p {
+    font-weight: 500;
+    color: #4fb982;
+    opacity: 1;
+}
+
+.footer-left > a img {
+    max-width: 100px;
+}
+
+.footer-nav p {
+    display: none;
+}
+
+.footer-left ul {
+    /* position: absolute; */
+    bottom: 25px;
+}
+.ph-gov {
+    flex-direction: column;
+    padding: 20px 30px;
+    gap: 10px;
+}
+
+.ph-gov h2 {
+    margin-bottom: 0;
+    margin-left: -7px;
+    font-size: 21px;
+}
+
+.ph-gov h2 img {
+    width: 35px;
+}
+
+.Aircraft_blk, .CO2_blk, .Historic_blk, .Flights_blk {
+    padding: 0 30px;
+}
+
+.title span {
+    margin-left: 5px;
+}
+
+.title a {
+    max-width: 24px;
+}
+
+.Aircraft_blk ul li:first-child {
+    width: 100%;
+}
+
+.Aircraft_blk ul {
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+.Aircraft_blk ul li {
+    width: 47%;
+}
+
+.air_list {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.ph_list p {
+    font-size: 14px;
+}
+
+.total_co.active a {
+    text-align: center;
+    min-width: 210px;
+    padding: 10px 0;
+}
+
+
+.chart-blk ul {
+    gap: 15px;
+}
+
+table.table.table-hover {
+    min-width: 760px;
+}
+
+.Flights_blk > div {
+    overflow: scroll;
+}
+
+.Disclaimer_blk {
+    padding: 30px;
+}
+
+.Disclaimer_blk ul {flex-wrap: wrap;gap: 20px 10px;}
+
+.Disclaimer_blk ul li {
+    width: 46%;
+}
+.hero_text h2{
+    font-size: 22px;
+}
+
+.hero_text h3 {
+    font-size: 19px;
+}
+.Register_text h3 {
+    font-size: 20px;
+}
+
+.Register_top {
+    padding: 30px;
+}
+
+.Register_top h2 {
+    font-size: 21px;
+}
+
+.Register_top img {
+    width: 25px;
+}
+
+.Register_content {
+    padding: 30px 30px 40px;
+}
+
+.input_blk input {
+    height: 50px;
+}
+
+.input_blk label {
+    margin-bottom: 7px;
+}
+
+.Register_content h3 {
+    font-size: 20px;
+}
+
+.btns {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Register_content > a {
+    height: 50px;
+}
+.price_blk ul a.thm_btn {
+    width: 100%;
+    height: 44px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compensation_title {
+    padding: 30px;
+}
+
+.compensation_title > div h2 {
+    font-size: 20px;
+}
+
+.compensation_title > div i img {
+    width: 30px;
+}
+
+.compensation_title > div {
+    gap: 10px;
+}
+
+.compensation_title a img {
+    width: 30px;
+}
+
+.compenAccordion .accordion-item {
+    padding: 30px 20px 0;
+}
+
+.compenAccordion .accordion-button {
+    gap: 10px;
+}
+
+.compenAccordion .accordion-button h3 {
+    font-size: 18px;
+}
+
+.Aircraft-Profile_body > ul li span {
+    font-size: 14px;
+    display: block;
+    line-height: 1.4;
+}
+
+.Aircraft-Profile_body > ul li {
+    margin: 10px 0;
+}
+
+.compenAccordion .accordion-collapse {
+    margin-left: 40px;
+}
+
+.ph-select_blk {
+    max-width: 220px;
+}
+
+.compenAccordion .accordion-button h2 {transform: translateY(2px);font-size: 22px;}
+
+.compenAccordion .accordion-button p {
+    font-size: 14px;
+}
+
+.settings_blk.active {
+    margin-left: 0;
+}
+
+.settings_blk {
+    margin-left: 14px;
+    max-width: 240px;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.timeLine_body ul {
+    min-width: 600px;
+}
+
+.timeLine_body #timeLine {
+    min-width: 600px;
+}
+
+.timeLine_total {
+    padding: 30px;
+}
+
+.timeLine_total p {
+    font-size: 15px;
+}
+
+.settings_blk h4 br {
+    display: none;
+}
+
+.price_blk {
+    padding: 30px 20px;
+}
+
+.price_blk ul {
+    padding-left: 50px;
+}
+
+.price_blk ul li span {
+    font-size: 14px;
+}
+.cookie_left p {
+    text-align: left;
+}
+
+.cookie_blk {
+    padding: 30px 20px;
+}
+
+.cookie_left p {
+    font-size: 14px;
+}
+
+.Flight_wrp ul li > h5 {
+    width: 40%;
+}
+
+.Flight_wrp ul h5 {
+    font-size: 14px;
+}
+
+.Flight_wrp ul p {
+    font-size: 14px;
+}
+
+.Flight_wrp iframe {
+    height: 250px;
+}
+.Flight_wrp {
+    margin-top: 50px;
+}
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.neutral-area .container {width:550px}
+.H-about > a{
+    max-width: 350px;
+}
+.neutral_blk{
+    height: 290px;
+}
+ 
+}
